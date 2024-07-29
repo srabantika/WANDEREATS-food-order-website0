@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">WanderEats</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">DESIGN</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name=""placeholder="Type To text">
+                <a href="#"><button class="btn">search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1>WanderEats <br><span>FOOD</span> <br>DELIVERY</h1>
+            <p class="par"> We are here to order your fav meal and deliver it to your doorstep 
+                 <br>Do you want to checkout todays menu?.
+                 <br> here, you will get you the best quality food.</p>
+
+                 <button class="cn"><a href="#">JOIN US</a></button>
+
+                 <div class="form">
+                    <h2>Login Here</h2>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name=""placeholder="Enter Password Here">
+                    <button class="btnn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account</p><br>
+                    <li><a>Sign up here</a></li>
+                    
+                    <p class="liw">Log in with</p>
+                 </div>
+        </div>
+    </div>
+
+<div class="products">
+    <div class="prod1">
+        <h1> pure Veg</h1>
+    </div>
+       
+</div>
+<footer>
+    <div class="footer-content">
+
+    <div class="c">
+        <li><a><span>veg items</span></a></li>
+        <li><a>Malai tikka</a></li>
+        <li><a>shahi paneer</a></li>
+        <li><a>veg pulao</a></li>
+        <br>
+        <li><a>shahi tukda</a></li>
+        <br>
+        <li><a>dal makhani</a></li>
+        <li><a>veg biryani</a></li>
+        <li><a>gulab jamun</a></li>
+
+
+    </div>
+
+
+    </div>
+</footer>
+<script>
+    
+    const menu = document.querySelector('.menu');
+    menu.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+</script>
+</body>
+</html>
